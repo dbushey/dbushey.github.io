@@ -1,0 +1,55 @@
+/*.jumbotron {
+  background-image:url();
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+*/
+.jumbotron h1 {
+  color: #FF8D0C;
+  font-size: 48px;  
+  font-family: "Share Tech Mono";
+  font-weight: bold;
+  background-color: #A39DA9;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #FF8D0C;
+  font-family: "Share Tech Mono";
+  background-color: #B8B8B8;
+}
+
+
+.nav a {
+  color: #703C7E;
+  font-size: 36px;
+  font-family: "Share Tech Mono";
+  font-weight: bold;
+  padding: 14px 10px;
+  text-align: center;
+
+}
+
+
+
+.nav li {
+  display: inline;
+}
+
+.nav p {
+  font-size: 20px;
+  color: #703C7E;
+  font-family: "Courier";
+  background-color: #A39DA9;
+}
+
+
+
+
