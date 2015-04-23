@@ -1,15 +1,16 @@
 var width = window.innerWidth,
     height = window.innerHeight;
 
+
+
 var iOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
 
-(function chart2() {
-  
+function drawBackground() {
 
-      xStepsBig = d3.range(0, width, 40), // adjust the grid
-      yStepsBig = d3.range(0, height, 40),
-      xStepsSmall = d3.range(0, width + 6, 6),
-      yStepsSmall = d3.range(0, height + 6, 6);
+  xStepsBig = d3.range(0, width, 40), // adjust the grid
+  yStepsBig = d3.range(0, height, 40),
+  xStepsSmall = d3.range(0, width + 6, 6),
+  yStepsSmall = d3.range(0, height + 6, 6);
 
   var fisheye = d3.fisheye.circular()
       .focus([360, 90])
@@ -56,13 +57,15 @@ var iOS = (navigator.userAgent.match(/(iPad|iPhone|iPod)/g) ? true : false);
     }));
   }
 
-})();
+}//)();
 
-function regenerate() {
+
+
+$(window).resize(function(){
   width = window.innerWidth,
   height = window.innerHeight;
-  chart2();
-}
+  $("svg").remove();
+  drawBackground();
+});
 
-chart2();
-window.onresize = regenerate;
+drawBackground();
