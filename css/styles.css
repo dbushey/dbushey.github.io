@@ -861,18 +861,21 @@ img {
 
 /* maybe up to here */
 
-
 html {
     -webkit-tap-highlight-color: transparent
 }
 body {
-    background-color: #fff;
+    background-color: #d3d3d3;
 }
+
 
 .img-circle {
     border-radius: 50%
 }
 
+pad-left {
+    margin-left: 2cm
+}
 
 @-ms-viewport {
     width: device-width
@@ -999,7 +1002,7 @@ h2 {
     font-size: 2.779rem;
     line-height: 4.048rem;
     margin-bottom: 2.024rem;
-    color: #d3d3d3
+    color: #703C7E;
 }
 @media (min-width: 768px) {
     h2 {
@@ -1019,7 +1022,8 @@ h4 {
     font-family: 'Share Tech Mono', Georgia;
     font-size: 2.429rem;
     line-height: 2.779rem;
-    margin-bottom: 1.39rem
+    margin-bottom: 1.39rem;
+    color: #703C7E;
 }
 h5 {
     font-family: 'Share Tech Mono', Helvetica;
@@ -1063,13 +1067,13 @@ small {
 a {
     text-decoration: none;
     /*color: #009978;*/
-    color: fff;   /* change font color menu #703C7E; */
+    color: orange;   /* change font color menu #703C7E; */
     /*cursor: pointer*/
 }
 @media (min-width: 991px) {
     a:active, a:hover, a:visited {
         text-decoration: underline;
-        color: #009978
+        color: orange
     }
 }
 b, strong {
@@ -1148,6 +1152,7 @@ path {
 #background {
     position: fixed;
     color: #fff;
+
 }
 .top-bar {
     position: relative;
@@ -1200,7 +1205,7 @@ path {
     background-clip: padding-box;
     background-color: rgba(255,141,12, .3);
     text-align: center;
-    z-index: 11
+    
 }
 .big-initial {
     font-family: 'Share Tech Mono', Georgia, serif;
@@ -1210,7 +1215,7 @@ path {
     letter-spacing: -4px;
     margin-left: -6px;
     z-index: 15;
-    text-align; center
+    text-align: center
 
 }
 @media (min-width: 768px) {
@@ -1373,7 +1378,9 @@ path {
     min-height: 1px;
     padding-right: 15px;
     list-style: none;
-    padding-left: 0
+    padding-left: 0;
+    z-index: 8
+
 }
 @media (min-width: 768px) {
     .index-list ul {
@@ -1393,7 +1400,8 @@ path {
 .index-list li a {
     display: inline-block;
     padding: 0 1rem;
-    margin: .5828rem 0
+    margin: .5828rem 0;
+
 }
 .index-list li a:not(.small) {
     font-family: 'Share Tech Mono', monospace;
