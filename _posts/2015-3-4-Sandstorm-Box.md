@@ -2,7 +2,7 @@
 layout: post
 title: The Sandstorm Box
 ---
-# Sandstorm Box
+
 ![Render of Sandstorm Box in 123D](../images/sandstorm_box1.png)
 
 The Sandstorm Box is part of a larger art project called Interactive Picture Frames.
@@ -32,8 +32,8 @@ Also, I will report all my steps to build this project in this blog so conceivab
 
 ![Hubsan X4 H107C Quadcopter Spare Parts Crash Pack](../images/blades.jpg)
 
-In the place of the fans I will try to use quadcopter blades. They blow a lot of ar and the kit with blades and 2 pcs motors is not expensive. 
-Whater pipers will be used to channel the air.
+In the place of the fans I will try to use quadcopter dc motors and blades. They blow a lot of ar and the kit with blades and 2 dcs motors is not expensive. 
+Water pipers will be used to channel the air.
 
 ###Materials List
 1. Masonite
