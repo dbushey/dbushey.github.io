@@ -14,7 +14,7 @@ function drawBackground() {
 
   var fisheye = d3.fisheye.circular()
       .focus([360, 90])
-      .radius(80); // adjust the size of the ball, distortion
+      .radius(80); // adjust the size of the ball, distortion*/
 
   var line = d3.svg.line();
 
@@ -57,7 +57,7 @@ function drawBackground() {
     }));
   }
 
-}//)();
+}
 
 
 
@@ -65,7 +65,14 @@ $(window).resize(function(){
   width = window.innerWidth,
   height = window.innerHeight;
   $("svg").remove();
-  drawBackground();
+  console.log(width);
+  if(width > 360){
+    drawBackground();
+  }
+  
 });
 
-drawBackground();
+
+if(width > 360){
+    drawBackground();
+  }
