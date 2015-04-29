@@ -69,7 +69,8 @@ void loop()  {
       pirState = LOW;
   }
 }
-}```
+}
+```
 
 Using Arduino analog outputs (PWM), it's possible to control the speed of each motor by sending a
 number between 0 and 255.
