@@ -22,7 +22,7 @@ sent, the motors are activated and the motors will stay on until the sensor chan
 longer captures motion.
 
 ### Code
-
+```
 int motorsArray[] = {5, 6, 9, 10};           // Motors array for PWM 5,6,9 and 10
 int numOfMotorss = 4;                       // Motor's of index 0-3
 int pirState = LOW;
@@ -69,7 +69,7 @@ void loop()  {
       pirState = LOW;
   }
 }
-}
+}```
 
 Using Arduino analog outputs (PWM), it's possible to control the speed of each motor by sending a
 number between 0 and 255.
