@@ -23,6 +23,10 @@ longer captures motion.
 
 ### Code
 
+Using Arduino analog outputs (PWM), it's possible to control the speed of each motor by sending a
+number between 0 and 255.
+
+```
 int motorsArray[] = {5, 6, 9, 10};           // Motors array for PWM 5,6,9 and 10
 int numOfMotorss = 4;                       // Motor's of index 0-3
 int pirState = LOW;
@@ -70,7 +74,18 @@ void loop()  {
   }
 }
 }
+```
+### Results
+I followed a tutorial for one 6V dc motor even though my motors are 3.7V. So far I was only able to run two motors on a Arduino Uno. 
+I had uploaded the code to run one motor and that was enough to run two, I don't understand why.
+I wired four motors but only the same two motors that was working before kept working - the two motors that are wired on the side of the power rail that is connected to the arduino.
+I uploaded the code above and again only the two motors that were working before kept working.
+I connected PN2222 transistors, 1N4001 diodes and 2.2K Ω Resistors (much higher resistor than the tutorial 270 Ω). These parts worked for two motors, but I am not positive they are appropriate for four.
+The other obvious issue is that four motors require more power and I might need an external power supply. 
+I stopped testing becuase the arduino motherboard was getting hot, I was concern it would burn.
 
-Using Arduino analog outputs (PWM), it's possible to control the speed of each motor by sending a
-number between 0 and 255.
+
+
+
+
 
