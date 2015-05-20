@@ -5,8 +5,8 @@ title: Project Documentation
 
 ### Sandstorm Box: Project Documentation
 
-![design box](../images/sandstorm_box1.png =100x250)
-![laser cut box](../images/box.jpg =250x)
+![design box](../images/sandstorm_box1.png)
+![laser cut box](../images/box.jpg)
 
 ![motors' base](../images/motorsbase.jpg)
 
