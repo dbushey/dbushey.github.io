@@ -21,6 +21,11 @@ To hold the motors in place, I 3d printed 4 cubes that fit the motors and blades
 
 <img src="../images/motorsbase.jpg" width="400">
 
+#### Hardware:
+I decided to use an Adafruit motor shield to control the 4 DC motors.
+
+<img src="../images/motorshield.gif" width="400">
+
 
 #### Code:
 ```
