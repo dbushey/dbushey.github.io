@@ -624,6 +624,30 @@ path {
     text-align: right
 }
 
+.about-img {
+    width: 600;
+    height: 300;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+@media (max-width: 768px) {
+    .about-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto ;
+        width: 300;
+        height: 150;
+    }
+}
+
+.about-text {
+    padding: 15px;
+    text-align: center;
+
+}
+
 @media (min-width: 768px) {
     .headline-wrapper h1 {
         float: left;
