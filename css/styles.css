@@ -624,6 +624,7 @@ path {
     text-align: right
 }
 
+/* my css */
 .about-img {
     width: 600;
     height: 300;
@@ -637,8 +638,8 @@ path {
         display: block;
         margin-left: auto;
         margin-right: auto ;
-        width: 300;
-        height: 150;
+        width: 400;
+        height: 200;
     }
 }
 
@@ -647,6 +648,8 @@ path {
     text-align: center;
 
 }
+/* til here */
+
 
 @media (min-width: 768px) {
     .headline-wrapper h1 {
